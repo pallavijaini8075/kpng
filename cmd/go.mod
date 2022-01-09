@@ -24,10 +24,10 @@ require (
 	github.com/spf13/cobra v1.2.1
 	google.golang.org/grpc v1.41.0
 	google.golang.org/protobuf v1.27.1
-	k8s.io/client-go v0.22.2
+	k8s.io/client-go v0.23.1
 	k8s.io/klog v1.0.0
 	sigs.k8s.io/kpng/api v0.0.0-20211016172202-2f0db1baddba
-	sigs.k8s.io/kpng/backends/iptables v0.0.0-00010101000000-000000000000
+	sigs.k8s.io/kpng/backends/iptables v0.0.0-20220108032504-5c135f5b1f3b
 	sigs.k8s.io/kpng/backends/ipvs-as-sink v0.0.0-00010101000000-000000000000
 	sigs.k8s.io/kpng/backends/nft v0.0.0-00010101000000-000000000000
 	sigs.k8s.io/kpng/backends/userspacelin v0.0.0-00010101000000-000000000000
@@ -42,7 +42,7 @@ require (
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/go-logr/logr v1.1.0 // indirect
+	github.com/go-logr/logr v1.2.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
@@ -77,10 +77,12 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
-	k8s.io/api v0.22.2 // indirect
-	k8s.io/apimachinery v0.22.2 // indirect
-	k8s.io/component-base v0.21.0-alpha.1 // indirect
-	k8s.io/klog/v2 v2.20.0 // indirect
+	k8s.io/api v0.23.1 // indirect
+	k8s.io/apimachinery v0.23.1 // indirect
+	k8s.io/cloud-provider v0.22.2 // indirect
+	k8s.io/component-base v0.22.2 // indirect
+	k8s.io/component-helpers v0.23.1 // indirect
+	k8s.io/klog/v2 v2.30.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20210421082810-95288971da7e // indirect
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.1.2 // indirect

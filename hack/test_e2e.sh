@@ -567,7 +567,7 @@ if ! [[ "${ip_family}" =~ ^(ipv4|ipv6|dual)$ ]]; then
     help
 fi
 
-if ! [[ "${backend}" =~ ^(iptables|nft|ipvs)$ ]]; then
+if ! [[ "${backend}" =~ ^(iptables|nft|ipvs|userspacelin)$ ]]; then
     echo "user must specify the supported backend"
     help
 fi

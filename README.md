@@ -11,8 +11,16 @@ The Kubernetes Proxy NG a new design of kube-proxy aimed at
 The project will provide multiple components, with the core being the API watcher that will serve the global and node-specific sets of objects.
 
 - More context can be found in the project's [KEP](https://github.com/kubernetes/enhancements/issues/2104).
-- The meeting agenda and notes are here https://docs.google.com/document/d/1yW3AUp5rYDLYCAtZc6e4zeLbP5HPLXdvuEFeVESOTic/edit#
-- See you friday at 8:30 PST / 11:30 EST !!!
+
+# Meetings
+## Americas
+- The meeting agenda and [notes are here](https://docs.google.com/document/d/1yW3AUp5rYDLYCAtZc6e4zeLbP5HPLXdvuEFeVESOTic/edit#)
+- See you friday at 8:30 PST / 11:30 EST !!!  
+- [Convert to your timezone](https://dateful.com/convert/pst-pdt-pacific-time?t=830am&tz2=EST-EDT-Eastern-Time)  
+
+## APAC
+- Every Wednesday at 7:00PM IST / 8:30 EST [zoom link here](https://zoom.us/j/94435779760?pwd=TnJvdDRURktDVTZENU1kQXd5RlFBdz09).  
+- [Convert to your timezone](https://dateful.com/convert/indian-standard-time-ist?t=7pm)
 
 ## How we work
 
@@ -34,8 +42,8 @@ There are many ways to get started, but here's a good set of guidelines.
 ### First, make sure you understand the basics of K8s networking.
 
 In particular, you should be able to differentiate:
-- CNI providers (i.e. calico, antrea, cillium, and so on)
-- Service Proxies (i.e. kube-proxy, AntreaProxy, CilliumProxy, various service-mesh's, and so on)
+- CNI providers (i.e. calico, antrea, cilium, and so on)
+- Service Proxies (i.e. kube-proxy, AntreaProxy, CiliumProxy, various service-mesh's, and so on)
 - LoadBalancers (i.e. serviceType=LoadBalancer)
 
 There are about 20 or 30 great youtube videos about Kubernetes networking and the Kube proxy that you can easily search for and study.

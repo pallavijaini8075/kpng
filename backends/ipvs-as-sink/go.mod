@@ -17,13 +17,13 @@ require (
 	github.com/google/seesaw v0.0.0-20210205180622-915f447b8ed8
 	github.com/spf13/pflag v1.0.5
 	github.com/vishvananda/netlink v1.1.0
-	k8s.io/api v0.21.2
-	k8s.io/apimachinery v0.21.2
+	k8s.io/api v0.22.2
+	k8s.io/apimachinery v0.22.2
 	k8s.io/klog v1.0.0
 	k8s.io/klog/v2 v2.20.0
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
 	sigs.k8s.io/kpng/api v0.0.0-20211016172202-2f0db1baddba
-	sigs.k8s.io/kpng/backends/ipvs v0.0.0-20211016172202-2f0db1baddba
+	sigs.k8s.io/kpng/backends/iptables v0.0.0-20220108032504-5c135f5b1f3b
 	sigs.k8s.io/kpng/client v0.0.0-20211016172202-2f0db1baddba
 )
 
